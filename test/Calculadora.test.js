@@ -1,4 +1,13 @@
 var assert = require('assert');
+const Calculadora = require('../src/Calculadora');
+
+describe('Testes da calculadora', function () {
+
+let minhacalculadora;
+this.beforeEach(function (){
+
+});
+
 
 describe('Soma Simples', function () {
   it('2 + 3 deve ser igual a 5', function () {
@@ -41,3 +50,4 @@ describe('dividir', function () {
     assert.strictEqual(2 / 1, 2);
   });
 }); 
+});
