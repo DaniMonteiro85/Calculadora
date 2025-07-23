@@ -1,0 +1,14 @@
+{
+  "name": "dani-qa",
+  "version": "1.0.0",
+  "description": "projeto minha calculadora",
+  "main": "arrey.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Danielle Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.7.1"
+  }
+}
