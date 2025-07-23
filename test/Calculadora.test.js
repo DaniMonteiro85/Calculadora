@@ -30,3 +30,14 @@ describe('multiplicar', function () {
     assert.strictEqual(2 * 3, 6);
   });
 }); 
+
+describe('dividir', function () {
+  it('deve retornar 2 quando multiplicar 2 e 1', function () {
+    /*
+      Aqui o teste verifica se o robô multiplica corretamente:
+      2 vezes 3 deve resultar em 6.
+      Pense na multiplicação como uma soma repetida.
+    */
+    assert.strictEqual(2 . 1, 2);
+  });
+}); 
