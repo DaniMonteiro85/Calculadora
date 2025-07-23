@@ -38,6 +38,6 @@ describe('dividir', function () {
       2 vezes 3 deve resultar em 6.
       Pense na multiplicação como uma soma repetida.
     */
-    assert.strictEqual(2 . 1, 2);
+    assert.strictEqual(2 / 1, 2);
   });
 }); 
