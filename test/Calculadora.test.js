@@ -5,13 +5,13 @@ describe('Testes da calculadora', function () {
 
 let minhacalculadora;
 this.beforeEach(function (){
-
+minhacalculadora = new Calculadora();
 });
 
 
 describe('Soma Simples', function () {
   it('2 + 3 deve ser igual a 5', function () {
-    assert.equal(2 + 3, 5);
+    assert.equal(minhacalculadora.somar(2,3), 5);
   });
 });
 
@@ -23,7 +23,7 @@ describe('subtrair', function () {
       É como verificar se o robô calculadora está tirando corretamente
       o valor de uma caixa (3) do valor de outra (4).
     */
-    assert.equal(4 - 3, 1);
+    assert.equal(minhacalculadora.subtrair(2,1), 1);
   });
 });
 
